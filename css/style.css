@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+   background-image: url(../image/nina.jpg);
+   background-repeat: no-repeat;
+   box-shadow: 6px 5px 4px rgba(0, 0,140, 0.2);
+}
+
+header {
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+
+h1 .logo{
+  overflow: hidden;
+  border-radius: 60px;
+}
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 50px; /* Espacement entre les éléments du menu */
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Pas de marge à gauche pour le premier élément */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+ 
+  border-radius: 2px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+nav ul li a.active {
+
+  font-weight: bold; /* Style pour l'élément actif */
+}
+
+nav ul li a:hover{
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+    width: 45%; /* Largeur de l'image */
+  border-radius: 900px; /* Coins arrondis de l'image */
+  float: right; /* Flottant à droite */
+  margin-left: 20px; /* Marge à gauche pour séparer l'image du tex
+  
+ /* padding: 50px 0;
+  margin-right: 60%;
+  margin-top: 2px;*/
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color:darkblue; /* Couleur du texte */
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  color: darkblue; /* Couleur du texte */
+}
+
+.button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #34db3c;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
